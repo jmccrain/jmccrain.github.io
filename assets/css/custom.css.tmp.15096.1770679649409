@@ -1,0 +1,63 @@
+/* Custom CSS for Joshua M. McCrain's website */
+
+/* Improve readability */
+body {
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+/* Publication styling */
+.publication-entry {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.publication-title {
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.publication-authors {
+  font-style: italic;
+  color: #555;
+  margin-bottom: 0.3rem;
+}
+
+.publication-venue {
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.publication-links {
+  font-size: 0.95rem;
+  color: #2780e3;
+}
+
+.publication-links a {
+  margin-right: 1rem;
+}
+
+/* Abstract toggle styling */
+details {
+  margin-top: 0.5rem;
+}
+
+summary {
+  cursor: pointer;
+  color: #2780e3;
+  font-weight: 500;
+}
+
+summary:hover {
+  text-decoration: underline;
+}
+
+/* Year headers in publications */
+h3.publication-year {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #2780e3;
+  padding-bottom: 0.5rem;
+}

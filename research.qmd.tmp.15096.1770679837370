@@ -1,0 +1,62 @@
+---
+title: "Research"
+---
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+
+library(tidyverse)
+library(glue)
+
+# Load publications (use cached data if available)
+if (file.exists("data/publications.rds")) {
+  pubs <- readRDS("data/publications.rds")
+} else {
+  # Run fetch script if data doesn't exist
+  source("R/fetch_publications.R")
+  pubs <- main()
+}
+```
+
+## Publications
+
+```{r}
+#| echo: false
+#| results: asis
+
+# Group by year
+pubs_by_year <- pubs %>%
+  group_by(year) %>%
+  nest() %>%
+  arrange(desc(year))
+
+# Generate HTML for each year
+walk2(pubs_by_year$data, pubs_by_year$year, function(year_data, year) {
+  cat(glue("\n### {year}\n\n"))
+
+  pwalk(year_data, function(title, doi_link, citation_text, ...) {
+    # Publication entry
+    cat(glue('<div class="publication-entry">\n\n'))
+    cat(glue('<div class="publication-title">{title}</div>\n\n'))
+
+    # DOI link and citations
+    links <- c()
+    if (!is.na(doi_link)) {
+      links <- c(links, glue('[DOI]({doi_link})'))
+    }
+    links <- c(links, citation_text)
+
+    cat(glue('<div class="publication-links">{paste(links, collapse = " • ")}</div>\n\n'))
+    cat("</div>\n\n")
+  })
+})
+```
+
+---
+
+*Publication data automatically updated from [OpenAlex](https://openalex.org/). Last updated: `r Sys.Date()`*
+
+**Sources:**
+- [OpenAlex Documentation](https://docs.openalex.org/)

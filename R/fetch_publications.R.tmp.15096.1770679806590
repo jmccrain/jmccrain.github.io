@@ -1,0 +1,76 @@
+# Fetch publications from OpenAlex API for Joshua M. McCrain
+library(openalexR)
+library(tidyverse)
+library(glue)
+
+# Main function to fetch McCrain's publications
+fetch_mccrain_pubs <- function(author_id = "A5048491430") {
+
+  message("Fetching publications from OpenAlex...")
+  message(glue("Using OpenAlex author ID: {author_id}"))
+
+  # Fetch publications
+  message("Fetching works...")
+  works <- oa_fetch(
+    entity = "works",
+    author.id = author_id,
+    verbose = FALSE
+  )
+
+  message(glue("Retrieved {nrow(works)} publications"))
+
+  # Process - keep it simple and use only fields we know exist
+  pubs <- works %>%
+    mutate(
+      # Basic fields
+      title = display_name,
+      year = publication_year,
+      citations = ifelse(!is.null(cited_by_count), cited_by_count, 0),
+
+      # Create DOI link if DOI exists
+      doi_link = ifelse(!is.na(doi), paste0("https://doi.org/", doi), NA_character_),
+
+      # Citation text
+      citation_text = case_when(
+        citations == 0 ~ "No citations yet",
+        citations == 1 ~ "1 citation",
+        TRUE ~ glue("{citations} citations")
+      )
+    ) %>%
+    # Select only fields we're sure exist
+    select(id, title, year, citations, citation_text, doi, doi_link) %>%
+    arrange(desc(year))
+
+  return(pubs)
+}
+
+# Main execution function
+main <- function() {
+  # Fetch publications
+  pubs <- fetch_mccrain_pubs()
+
+  # Create data directory if it doesn't exist
+  if (!dir.exists("data")) dir.create("data")
+
+  # Save for caching
+  saveRDS(pubs, "data/publications.rds")
+
+  # Also save as CSV for inspection
+  write_csv(pubs, "data/publications.csv")
+
+  message(glue("\nSuccessfully saved {nrow(pubs)} publications"))
+
+  # Print summary
+  message("\nPublications by year:")
+  pubs %>%
+    count(year) %>%
+    arrange(desc(year)) %>%
+    print()
+
+  return(invisible(pubs))
+}
+
+# Run if executed as script
+if (!interactive()) {
+  main()
+}

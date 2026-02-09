@@ -1,0 +1,30 @@
+---
+title: "R Tutorials"
+---
+
+## Tutorials and Resources
+
+Resources for learning R programming and working with political science data.
+
+### Congressional Data Guide
+
+Comprehensive guide to working with congressional data in R:
+
+[congressdata.joshuamccrain.com](http://congressdata.joshuamccrain.com/)
+
+Topics covered:
+- Congressional datasets and sources
+- Data manipulation with tidyverse
+- Regression discontinuity designs
+- Working with legislative data
+- Statistical models for political analysis
+
+---
+
+### Additional Resources
+
+*Additional tutorials will be added here*
+
+---
+
+For questions or suggestions, contact josh.mccrain@utah.edu.

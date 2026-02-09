@@ -1,0 +1,31 @@
+---
+title: "Joshua M. McCrain"
+---
+
+## Assistant Professor of Political Science
+
+University of Utah
+
+---
+
+Welcome to my website! I'm an Assistant Professor of Political Science at the University of Utah. My research focuses on American political institutions, Congress, lobbying, media and politics, and computational social science.
+
+### Recent Highlights
+
+- **Publications**: Over 90 academic publications examining Congressional behavior, lobbying dynamics, and political accountability
+- **Research Focus**: Congressional data analysis, revolving door phenomena, local news and politics
+- **Teaching**: Courses in American Politics, Congressional Studies, and Political Science methods
+
+### Quick Links
+
+- [Research & Publications](research.qmd) - Full list of publications with DOIs and citation counts
+- [CV](cv.qmd) - Complete curriculum vitae
+- [Teaching](teaching.qmd) - Course information and materials
+- [GitHub](https://github.com/jmccrain) - Code and projects
+- [Google Scholar](https://scholar.google.com/citations?user=7u0KfyUAAAAJ&hl=en)
+
+### Contact
+
+**Email**: josh.mccrain@utah.edu
+**Office**: University of Utah, Department of Political Science
+**GitHub**: [github.com/jmccrain](https://github.com/jmccrain)

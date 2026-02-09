@@ -1,0 +1,43 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Joshua M. McCrain"
+  navbar:
+    background: primary
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "About"
+        href: about.qmd
+      - text: "Research"
+        href: research.qmd
+      - text: "Teaching"
+        href: teaching.qmd
+      - text: "CV"
+        href: cv.qmd
+      - text: "Tutorials"
+        href: tutorials.qmd
+    right:
+      - icon: github
+        href: https://github.com/jmccrain
+      - icon: envelope
+        href: mailto:josh.mccrain@utah.edu
+
+  page-footer:
+    left: "© 2026 Joshua M. McCrain"
+    right: "Built with [Quarto](https://quarto.org)"
+
+format:
+  html:
+    theme: cosmo
+    css: assets/css/custom.css
+    toc: true
+    toc-depth: 3
+    link-external-newwindow: true
+    code-fold: true
+
+execute:
+  freeze: auto
+  cache: true

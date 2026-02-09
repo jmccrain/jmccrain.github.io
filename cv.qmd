@@ -1,0 +1,45 @@
+---
+title: "Curriculum Vitae"
+---
+
+## Joshua M. McCrain
+
+Assistant Professor of Political Science
+University of Utah
+
+---
+
+**Download CV**: [PDF version](assets/files/McCrain_CV.pdf) *(Upload your CV PDF to assets/files/)*
+
+---
+
+## Education
+
+**Ph.D.**, Political Science, Emory University
+**M.A.**, Political Science, University of North Carolina at Chapel Hill
+**B.A.**, Political Science, University of North Carolina at Chapel Hill
+
+## Academic Positions
+
+**Assistant Professor** (Current)
+Department of Political Science, University of Utah
+
+**Post-Doctoral Research Associate**
+Institute for Public Policy and Social Research, Michigan State University
+
+## Research
+
+See [Research & Publications](research.qmd) for a complete, up-to-date list of publications with links and citation counts.
+
+## Teaching
+
+See [Teaching](teaching.qmd) for course information and materials.
+
+## Service
+
+- Director, Policing Accountability and Policy Evaluation Research Lab
+- EITM Institute affiliate
+
+---
+
+*This page provides a summary. For the complete CV, please download the [PDF version](assets/files/McCrain_CV.pdf).*

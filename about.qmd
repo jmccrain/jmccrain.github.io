@@ -1,0 +1,47 @@
+---
+title: "About"
+---
+
+## Joshua M. McCrain, PhD
+
+I am an Assistant Professor of Political Science at the University of Utah. My research examines American political institutions, with particular focus on Congress, lobbying, media effects, and the use of computational methods in political science.
+
+### Education
+
+- **Ph.D.**, Political Science, Emory University
+- **M.A.**, Political Science, University of North Carolina at Chapel Hill
+- **B.A.**, Political Science, University of North Carolina at Chapel Hill
+
+### Research Interests
+
+- American political institutions
+- Congress and Congressional data
+- Lobbying and money in politics
+- Media and politics
+- Policing and police accountability
+- Public policy and political economy
+- Computational social science
+- Causal inference methodologies
+
+### Leadership
+
+- **Director**, Policing Accountability and Policy Evaluation Research Lab
+
+### Awards & Recognition
+
+- **APSA Award** for "Revolving Door Lobbyists and the Value of Congressional Staff Connections" (2018, *Journal of Politics*)
+
+### Professional Affiliations
+
+- University of Utah, Department of Political Science
+- Previously: Post-Doctoral Research Associate, Institute for Public Policy and Social Research, Michigan State University
+- EITM Institute affiliate
+
+---
+
+For more information, see my [full CV](cv.qmd) or [research publications](research.qmd).
+
+### Contact
+
+**Email**: josh.mccrain@utah.edu
+**University Profile**: [University of Utah Faculty Page](https://faculty.utah.edu/u6036151-Josh_McCrain/)

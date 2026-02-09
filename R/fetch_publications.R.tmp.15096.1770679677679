@@ -1,0 +1,147 @@
+# Fetch publications from OpenAlex API for Joshua M. McCrain
+# Uses openalexR package with tidyverse data processing
+
+library(openalexR)
+library(tidyverse)
+library(glue)
+
+# Function to format author lists
+format_authors <- function(author_df) {
+  if (is.null(author_df) || nrow(author_df) == 0) return("")
+
+  authors <- author_df$au_display_name
+
+  if (length(authors) == 1) return(authors[1])
+  if (length(authors) == 2) return(paste(authors, collapse = " and "))
+  if (length(authors) > 2) {
+    paste(
+      paste(authors[-length(authors)], collapse = ", "),
+      "and",
+      authors[length(authors)]
+    )
+  }
+}
+
+# Function to reconstruct abstract from inverted index
+reconstruct_abstract <- function(inverted_index) {
+  if (is.null(inverted_index) || length(inverted_index) == 0) return(NA_character_)
+
+  tryCatch({
+    # Create word-position pairs
+    word_positions <- map2_dfr(names(inverted_index), inverted_index,
+                                ~tibble(word = .x, position = .y)) %>%
+      unnest(position) %>%
+      arrange(position)
+
+    # Reconstruct abstract
+    paste(word_positions$word, collapse = " ")
+  }, error = function(e) {
+    NA_character_
+  })
+}
+
+# Main function to fetch McCrain's publications
+fetch_mccrain_pubs <- function(author_id = NULL, author_name = "Joshua M. McCrain") {
+
+  message("Fetching publications from OpenAlex...")
+
+  # Step 1: Find author ID if not provided
+  if (is.null(author_id)) {
+    message("Searching for author ID...")
+    author_search <- oa_fetch(
+      entity = "authors",
+      display_name.search = author_name,
+      verbose = FALSE
+    )
+
+    # Filter for University of Utah affiliation
+    author_match <- author_search %>%
+      filter(str_detect(tolower(affiliation_display_name), "utah")) %>%
+      slice(1)
+
+    if (nrow(author_match) == 0) {
+      stop("Could not find author. Please provide OpenAlex author ID manually.")
+    }
+
+    author_id <- author_match$id
+    message(glue("Found author: {author_match$display_name} ({author_match$affiliation_display_name})"))
+    message(glue("OpenAlex ID: {author_id}"))
+  }
+
+  # Step 2: Fetch publications
+  message("Fetching works...")
+  works <- oa_fetch(
+    entity = "works",
+    author.id = author_id,
+    verbose = FALSE
+  )
+
+  message(glue("Retrieved {nrow(works)} publications"))
+
+  # Step 3: Process with tidyverse
+  pubs <- works %>%
+    mutate(
+      # Extract and format key fields
+      title = str_trim(display_name),
+      year = publication_year,
+      date = publication_date,
+      journal = so,
+      pub_type = type,
+      citations = cited_by_count %||% 0,
+
+      # Format authors
+      authors_formatted = map_chr(author, format_authors),
+
+      # Reconstruct abstract from inverted index
+      abstract_text = map_chr(abstract_inverted_index, reconstruct_abstract),
+
+      # Format citation text
+      citation_text = case_when(
+        citations == 0 ~ "No citations yet",
+        citations == 1 ~ "1 citation",
+        TRUE ~ glue("{citations} citations")
+      ),
+
+      # Create DOI link
+      doi_link = if_else(!is.na(doi), glue("https://doi.org/{doi}"), NA_character_),
+
+      # Clean publication type
+      type_clean = str_replace_all(pub_type, "-", " ") %>% str_to_title()
+    ) %>%
+    select(
+      id, title, year, date, journal, pub_type, type_clean,
+      authors_formatted, abstract_text, doi, doi_link,
+      citations, citation_text, is_oa, url
+    ) %>%
+    arrange(desc(year), desc(date))
+
+  return(pubs)
+}
+
+# Main execution function
+main <- function() {
+  # Fetch publications
+  pubs <- fetch_mccrain_pubs()
+
+  # Save for caching
+  saveRDS(pubs, "data/publications.rds")
+
+  # Also save as CSV for inspection
+  write_csv(pubs %>% select(-abstract_text), "data/publications.csv")
+
+  message(glue("\nSuccessfully saved {nrow(pubs)} publications to data/publications.rds"))
+
+  # Print summary
+  message("\nPublications by year:")
+  pubs %>%
+    count(year) %>%
+    arrange(desc(year)) %>%
+    print()
+
+  return(pubs)
+}
+
+# Run if executed as script
+if (!interactive()) {
+  main()
+}
