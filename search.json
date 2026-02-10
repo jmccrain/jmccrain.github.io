@@ -1,0 +1,121 @@
+[
+  {
+    "objectID": "tutorials.html",
+    "href": "tutorials.html",
+    "title": "R Tutorials",
+    "section": "",
+    "text": "Resources for learning R programming and working with political science data.\n\n\nComprehensive guide to working with congressional data in R:\ncongressdata.joshuamccrain.com\nTopics covered: - Congressional datasets and sources - Data manipulation with tidyverse - Regression discontinuity designs - Working with legislative data - Statistical models for political analysis\n\n\n\n\nAdditional tutorials will be added here\n\nFor questions or suggestions, contact josh.mccrain@utah.edu."
+  },
+  {
+    "objectID": "tutorials.html#tutorials-and-resources",
+    "href": "tutorials.html#tutorials-and-resources",
+    "title": "R Tutorials",
+    "section": "",
+    "text": "Resources for learning R programming and working with political science data.\n\n\nComprehensive guide to working with congressional data in R:\ncongressdata.joshuamccrain.com\nTopics covered: - Congressional datasets and sources - Data manipulation with tidyverse - Regression discontinuity designs - Working with legislative data - Statistical models for political analysis\n\n\n\n\nAdditional tutorials will be added here\n\nFor questions or suggestions, contact josh.mccrain@utah.edu."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I am an Assistant Professor of Political Science at the University of Utah. My research examines American political institutions, with particular focus on Congress, lobbying, media effects, and the use of computational methods in political science.\n\n\n\nPh.D., Political Science, Emory University\nM.A., Political Science, University of North Carolina at Chapel Hill\nB.A., Political Science, University of North Carolina at Chapel Hill\n\n\n\n\n\nAmerican political institutions\nCongress and Congressional data\nLobbying and money in politics\nMedia and politics\nPolicing and police accountability\nPublic policy and political economy\nComputational social science\nCausal inference methodologies\n\n\n\n\n\nDirector, Policing Accountability and Policy Evaluation Research Lab\n\n\n\n\n\nAPSA Award for “Revolving Door Lobbyists and the Value of Congressional Staff Connections” (2018, Journal of Politics)\n\n\n\n\n\nUniversity of Utah, Department of Political Science\nPreviously: Post-Doctoral Research Associate, Institute for Public Policy and Social Research, Michigan State University\nEITM Institute affiliate\n\n\nFor more information, see my full CV or research publications.\n\n\n\nEmail: josh.mccrain@utah.edu University Profile: University of Utah Faculty Page"
+  },
+  {
+    "objectID": "about.html#joshua-m.-mccrain-phd",
+    "href": "about.html#joshua-m.-mccrain-phd",
+    "title": "About",
+    "section": "",
+    "text": "I am an Assistant Professor of Political Science at the University of Utah. My research examines American political institutions, with particular focus on Congress, lobbying, media effects, and the use of computational methods in political science.\n\n\n\nPh.D., Political Science, Emory University\nM.A., Political Science, University of North Carolina at Chapel Hill\nB.A., Political Science, University of North Carolina at Chapel Hill\n\n\n\n\n\nAmerican political institutions\nCongress and Congressional data\nLobbying and money in politics\nMedia and politics\nPolicing and police accountability\nPublic policy and political economy\nComputational social science\nCausal inference methodologies\n\n\n\n\n\nDirector, Policing Accountability and Policy Evaluation Research Lab\n\n\n\n\n\nAPSA Award for “Revolving Door Lobbyists and the Value of Congressional Staff Connections” (2018, Journal of Politics)\n\n\n\n\n\nUniversity of Utah, Department of Political Science\nPreviously: Post-Doctoral Research Associate, Institute for Public Policy and Social Research, Michigan State University\nEITM Institute affiliate\n\n\nFor more information, see my full CV or research publications.\n\n\n\nEmail: josh.mccrain@utah.edu University Profile: University of Utah Faculty Page"
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Information about courses taught at the University of Utah and previous institutions.\n\n\nCourse information will be added here\n\n\n\nI maintain a comprehensive guide to working with congressional data in R:\nCongressional Data Guide: congressdata.joshuamccrain.com\nThis resource provides tutorials and guides on: - Working with congressional datasets - Data manipulation and analysis in R - Regression discontinuity methods - Statistical modeling with political data\n\n\n\n\nAdditional R programming tutorials and resources for students.\nTutorials will be added here\n\nFor questions about courses or materials, please contact me at josh.mccrain@utah.edu."
+  },
+  {
+    "objectID": "teaching.html#courses",
+    "href": "teaching.html#courses",
+    "title": "Teaching",
+    "section": "",
+    "text": "Information about courses taught at the University of Utah and previous institutions.\n\n\nCourse information will be added here\n\n\n\nI maintain a comprehensive guide to working with congressional data in R:\nCongressional Data Guide: congressdata.joshuamccrain.com\nThis resource provides tutorials and guides on: - Working with congressional datasets - Data manipulation and analysis in R - Regression discontinuity methods - Statistical modeling with political data\n\n\n\n\nAdditional R programming tutorials and resources for students.\nTutorials will be added here\n\nFor questions about courses or materials, please contact me at josh.mccrain@utah.edu."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Joshua M. McCrain",
+    "section": "",
+    "text": "University of Utah\n\nWelcome to my website! I’m an Assistant Professor of Political Science at the University of Utah. My research focuses on American political institutions, Congress, lobbying, media and politics, and computational social science.\n\n\n\nPublications: Over 90 academic publications examining Congressional behavior, lobbying dynamics, and political accountability\nResearch Focus: Congressional data analysis, revolving door phenomena, local news and politics\nTeaching: Courses in American Politics, Congressional Studies, and Political Science methods\n\n\n\n\n\nResearch & Publications - Full list of publications with DOIs and citation counts\nCV - Complete curriculum vitae\nTeaching - Course information and materials\nGitHub - Code and projects\nGoogle Scholar\n\n\n\n\nEmail: josh.mccrain@utah.edu Office: University of Utah, Department of Political Science GitHub: github.com/jmccrain"
+  },
+  {
+    "objectID": "index.html#assistant-professor-of-political-science",
+    "href": "index.html#assistant-professor-of-political-science",
+    "title": "Joshua M. McCrain",
+    "section": "",
+    "text": "University of Utah\n\nWelcome to my website! I’m an Assistant Professor of Political Science at the University of Utah. My research focuses on American political institutions, Congress, lobbying, media and politics, and computational social science.\n\n\n\nPublications: Over 90 academic publications examining Congressional behavior, lobbying dynamics, and political accountability\nResearch Focus: Congressional data analysis, revolving door phenomena, local news and politics\nTeaching: Courses in American Politics, Congressional Studies, and Political Science methods\n\n\n\n\n\nResearch & Publications - Full list of publications with DOIs and citation counts\nCV - Complete curriculum vitae\nTeaching - Course information and materials\nGitHub - Code and projects\nGoogle Scholar\n\n\n\n\nEmail: josh.mccrain@utah.edu Office: University of Utah, Department of Political Science GitHub: github.com/jmccrain"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Assistant Professor of Political Science University of Utah\n\nDownload CV: PDF version (Upload your CV PDF to assets/files/)"
+  },
+  {
+    "objectID": "cv.html#joshua-m.-mccrain",
+    "href": "cv.html#joshua-m.-mccrain",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Assistant Professor of Political Science University of Utah\n\nDownload CV: PDF version (Upload your CV PDF to assets/files/)"
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "Curriculum Vitae",
+    "section": "Education",
+    "text": "Education\nPh.D., Political Science, Emory University M.A., Political Science, University of North Carolina at Chapel Hill B.A., Political Science, University of North Carolina at Chapel Hill"
+  },
+  {
+    "objectID": "cv.html#academic-positions",
+    "href": "cv.html#academic-positions",
+    "title": "Curriculum Vitae",
+    "section": "Academic Positions",
+    "text": "Academic Positions\nAssistant Professor (Current) Department of Political Science, University of Utah\nPost-Doctoral Research Associate Institute for Public Policy and Social Research, Michigan State University"
+  },
+  {
+    "objectID": "cv.html#research",
+    "href": "cv.html#research",
+    "title": "Curriculum Vitae",
+    "section": "Research",
+    "text": "Research\nSee Research & Publications for a complete, up-to-date list of publications with links and citation counts."
+  },
+  {
+    "objectID": "cv.html#teaching",
+    "href": "cv.html#teaching",
+    "title": "Curriculum Vitae",
+    "section": "Teaching",
+    "text": "Teaching\nSee Teaching for course information and materials."
+  },
+  {
+    "objectID": "cv.html#service",
+    "href": "cv.html#service",
+    "title": "Curriculum Vitae",
+    "section": "Service",
+    "text": "Service\n\nDirector, Policing Accountability and Policy Evaluation Research Lab\nEITM Institute affiliate\n\n\nThis page provides a summary. For the complete CV, please download the PDF version."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Campaign Contributions, Reciprocity, and Gender Solidarity\n\n\nDOI • 306 citations\n\n\n\n\nPolice staffing shortages, public awareness, and policy preferences\n\n\nDOI • 306 citations\n\n\n\n\n\n\n\nDoes civilian oversight impact police legitimacy?\n\n\nDOI • 306 citations\n\n\n\n\nHuman Capital Exiting Capitol Hill? Differences in Congressional Staff Turnover by Race and Gender\n\n\nDOI • 306 citations\n\n\n\n\nDoes civilian oversight impact police legitimacy?\n\n\nDOI • 306 citations\n\n\n\n\nInstitutional factors driving citizen perceptions of AI in government: Evidence from a survey experiment on policing\n\n\nDOI • 306 citations\n\n\n\n\n22713 From Local News to Polarized Views: The Nationalization of the American Media\n\n\nDOI • 306 citations\n\n\n\n\n\n\n\nPolice reform from the top down: Experimental evidence on police executive support for civilian oversight\n\n\nDOI • 306 citations\n\n\n\n\nSpeaking of reform: Experimental insights into influencing police executives’ perspectives on civilian oversight\n\n\nDOI • 306 citations\n\n\n\n\nPartisanship, expertise, or connections? A conjoint survey experiment on lobbyist hiring decisions\n\n\nDOI • 306 citations\n\n\n\n\nA tournament theory of congressional committee leadership\n\n\nDOI • 306 citations\n\n\n\n\nMedia Consolidation\n\n\nDOI • 306 citations\n\n\n\n\nReconsidering a prominent finding on the spillover effects of police killings of unarmed Black Americans\n\n\nDOI • 306 citations\n\n\n\n\nMedia Consolidation\n\n\nDOI • 306 citations\n\n\n\n\n\n\n\nInstitutional factors driving citizen perceptions of AI in government: Evidence from a survey experiment on policing\n\n\nDOI • 306 citations\n\n\n\n\nLobbyists into Government\n\n\nDOI • 306 citations\n\n\n\n\nLocal elections do not increase local news demand\n\n\nDOI • 306 citations\n\n\n\n\nPublic Support for Professional Legislatures\n\n\nDOI • 306 citations\n\n\n\n\nSoftware Citations in Political Science\n\n\nDOI • 306 citations\n\n\n\n\nA foot out the door: what drives bureaucratic exit into lobbying careers?\n\n\nDOI • 306 citations\n\n\n\n\nReplication Data for: Local Elections Do Not Increase Local News Demand\n\n\nDOI • 306 citations\n\n\n\n\n\n\n\nMeasuring dynamic media bias\n\n\nDOI • 306 citations\n\n\n\n\nPublic Pressure or Peer Influence: What Shapes Police Executives’ Views on Civilian Oversight?\n\n\nDOI • 306 citations\n\n\n\n\nExperience, institutions, and candidate emergence: the political career returns to state legislative service\n\n\nDOI • 306 citations\n\n\n\n\nSoftware Citations in Political Science\n\n\nDOI • 306 citations\n\n\n\n\nReplication Data for: Measuring Dynamic Media Bias\n\n\nDOI • 306 citations\n\n\n\n\nNews Hole: The Demise of Local Journalism and Political Engagement. By Danny Hayes and Jennifer L. Lawless. Cambridge: Cambridge University Press, 2021. 250p. $29.99 paper.\n\n\nDOI • 306 citations\n\n\n\n\nReplication Data for: Experience, institutions, and candidate emergence: The political career returns to state legislative service\n\n\nDOI • 306 citations\n\n\n\n\n\n\n\nThe Correlates of State Policy and the Structure of State Panel Data\n\n\nDOI • 306 citations\n\n\n\n\n\n\n\nLocal News and National Politics\n\n\nDOI • 306 citations\n\n\n\n\n\n\n\nRevolving Door Lobbyists and the Value of Congressional Staff Connections\n\n\nDOI • 306 citations\n\n\n\n\nBounding Partisan Approval Rates under Endogenous Partisanship: Why High Presidential Partisan Approval May Not Be What It Seems\n\n\nDOI • 306 citations\n\n\n\n\n\n\n\nreplication.r\n\n\nDOI • 306 citations\n\n\n\n\nReplication Data for: Revolving Door Lobbyists and the Value of Congressional Staff Connections\n\n\nDOI • 306 citations\n\n\n\n\nstata_results.do\n\n\nDOI • 306 citations\n\n\n\n\nstata_results_conns.csv\n\n\nDOI • 306 citations\n\n\n\n\nlobbying_data_stata.dta\n\n\nDOI • 306 citations\n\n\n\n\nlobbying_data.tab\n\n\nDOI • 306 citations\n\n\n\nPublication data automatically updated from OpenAlex. Last updated: 2026-02-10\nSources: - OpenAlex Documentation"
+  },
+  {
+    "objectID": "research.html#publications",
+    "href": "research.html#publications",
+    "title": "Research",
+    "section": "",
+    "text": "Campaign Contributions, Reciprocity, and Gender Solidarity\n\n\nDOI • 306 citations\n\n\n\n\nPolice staffing shortages, public awareness, and policy preferences\n\n\nDOI • 306 citations\n\n\n\n\n\n\n\nDoes civilian oversight impact police legitimacy?\n\n\nDOI • 306 citations\n\n\n\n\nHuman Capital Exiting Capitol Hill? Differences in Congressional Staff Turnover by Race and Gender\n\n\nDOI • 306 citations\n\n\n\n\nDoes civilian oversight impact police legitimacy?\n\n\nDOI • 306 citations\n\n\n\n\nInstitutional factors driving citizen perceptions of AI in government: Evidence from a survey experiment on policing\n\n\nDOI • 306 citations\n\n\n\n\n22713 From Local News to Polarized Views: The Nationalization of the American Media\n\n\nDOI • 306 citations\n\n\n\n\n\n\n\nPolice reform from the top down: Experimental evidence on police executive support for civilian oversight\n\n\nDOI • 306 citations\n\n\n\n\nSpeaking of reform: Experimental insights into influencing police executives’ perspectives on civilian oversight\n\n\nDOI • 306 citations\n\n\n\n\nPartisanship, expertise, or connections? A conjoint survey experiment on lobbyist hiring decisions\n\n\nDOI • 306 citations\n\n\n\n\nA tournament theory of congressional committee leadership\n\n\nDOI • 306 citations\n\n\n\n\nMedia Consolidation\n\n\nDOI • 306 citations\n\n\n\n\nReconsidering a prominent finding on the spillover effects of police killings of unarmed Black Americans\n\n\nDOI • 306 citations\n\n\n\n\nMedia Consolidation\n\n\nDOI • 306 citations\n\n\n\n\n\n\n\nInstitutional factors driving citizen perceptions of AI in government: Evidence from a survey experiment on policing\n\n\nDOI • 306 citations\n\n\n\n\nLobbyists into Government\n\n\nDOI • 306 citations\n\n\n\n\nLocal elections do not increase local news demand\n\n\nDOI • 306 citations\n\n\n\n\nPublic Support for Professional Legislatures\n\n\nDOI • 306 citations\n\n\n\n\nSoftware Citations in Political Science\n\n\nDOI • 306 citations\n\n\n\n\nA foot out the door: what drives bureaucratic exit into lobbying careers?\n\n\nDOI • 306 citations\n\n\n\n\nReplication Data for: Local Elections Do Not Increase Local News Demand\n\n\nDOI • 306 citations\n\n\n\n\n\n\n\nMeasuring dynamic media bias\n\n\nDOI • 306 citations\n\n\n\n\nPublic Pressure or Peer Influence: What Shapes Police Executives’ Views on Civilian Oversight?\n\n\nDOI • 306 citations\n\n\n\n\nExperience, institutions, and candidate emergence: the political career returns to state legislative service\n\n\nDOI • 306 citations\n\n\n\n\nSoftware Citations in Political Science\n\n\nDOI • 306 citations\n\n\n\n\nReplication Data for: Measuring Dynamic Media Bias\n\n\nDOI • 306 citations\n\n\n\n\nNews Hole: The Demise of Local Journalism and Political Engagement. By Danny Hayes and Jennifer L. Lawless. Cambridge: Cambridge University Press, 2021. 250p. $29.99 paper.\n\n\nDOI • 306 citations\n\n\n\n\nReplication Data for: Experience, institutions, and candidate emergence: The political career returns to state legislative service\n\n\nDOI • 306 citations\n\n\n\n\n\n\n\nThe Correlates of State Policy and the Structure of State Panel Data\n\n\nDOI • 306 citations\n\n\n\n\n\n\n\nLocal News and National Politics\n\n\nDOI • 306 citations\n\n\n\n\n\n\n\nRevolving Door Lobbyists and the Value of Congressional Staff Connections\n\n\nDOI • 306 citations\n\n\n\n\nBounding Partisan Approval Rates under Endogenous Partisanship: Why High Presidential Partisan Approval May Not Be What It Seems\n\n\nDOI • 306 citations\n\n\n\n\n\n\n\nreplication.r\n\n\nDOI • 306 citations\n\n\n\n\nReplication Data for: Revolving Door Lobbyists and the Value of Congressional Staff Connections\n\n\nDOI • 306 citations\n\n\n\n\nstata_results.do\n\n\nDOI • 306 citations\n\n\n\n\nstata_results_conns.csv\n\n\nDOI • 306 citations\n\n\n\n\nlobbying_data_stata.dta\n\n\nDOI • 306 citations\n\n\n\n\nlobbying_data.tab\n\n\nDOI • 306 citations\n\n\n\nPublication data automatically updated from OpenAlex. Last updated: 2026-02-10\nSources: - OpenAlex Documentation"
+  }
+]
