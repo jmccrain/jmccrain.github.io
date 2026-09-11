@@ -20,10 +20,14 @@ jobs:
         with:
           r-version: '4.5.1'
 
-      - name: Install R packages
-        run: |
-          install.packages(c('openalexR', 'tidyverse', 'glue', 'jsonlite'))
-        shell: Rscript {0}
+      - name: Install R Dependencies
+        uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages: |
+            any::openalexR
+            any::tidyverse
+            any::glue
+            any::jsonlite
 
       - name: Fetch Publications
         run: |
@@ -33,7 +37,7 @@ jobs:
         run: |
           git config --local user.name "GitHub Actions"
           git config --local user.email "actions@github.com"
-          git add data/publications.rds data/publications.csv
+          git add data/publications.rds
           git diff --quiet && git diff --staged --quiet || \
             git commit -m "Update publications from OpenAlex [automated]"
           git push
