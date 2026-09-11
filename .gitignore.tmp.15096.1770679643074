@@ -1,9 +1,0 @@
-_site/
-_freeze/
-.Rproj.user/
-*.Rproj
-.DS_Store
-.Rhistory
-.RData
-data/*.csv
-*.html
