@@ -10,3 +10,4 @@ data/*.csv
 
 # Dropbox sync artifacts
 *.tmp.*
+CNAME.backup
