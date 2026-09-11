@@ -1,1 +1,1 @@
-Sitemap: https://joshuamccrain.com/sitemap.xml
+Sitemap: https://jmccrain.github.io/sitemap.xml
